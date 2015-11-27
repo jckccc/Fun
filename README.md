@@ -1,2 +1,2 @@
 # Fun
-Random Projects and Code Samples
+Random Projects and Code Samples all Done for Fun
