@@ -1,0 +1,9 @@
+D:\Programming\VisualStudio\PokerHands\PokerHands\bin\Debug\PokerHands.exe.config
+D:\Programming\VisualStudio\PokerHands\PokerHands\bin\Debug\PokerHands.exe
+D:\Programming\VisualStudio\PokerHands\PokerHands\bin\Debug\PokerHands.pdb
+D:\Programming\VisualStudio\PokerHands\PokerHands\obj\Debug\PokerHands.csprojResolveAssemblyReference.cache
+D:\Programming\VisualStudio\PokerHands\PokerHands\obj\Debug\PokerHands.Form1.resources
+D:\Programming\VisualStudio\PokerHands\PokerHands\obj\Debug\PokerHands.Properties.Resources.resources
+D:\Programming\VisualStudio\PokerHands\PokerHands\obj\Debug\PokerHands.csproj.GenerateResource.Cache
+D:\Programming\VisualStudio\PokerHands\PokerHands\obj\Debug\PokerHands.exe
+D:\Programming\VisualStudio\PokerHands\PokerHands\obj\Debug\PokerHands.pdb

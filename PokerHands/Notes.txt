@@ -1,0 +1,12 @@
+Poker Hands
+
+Features
+- Simple simulation of poker with deck creation, shuffling, etc
+- Display card images to drawn cards
+- Find exact hand (flush, full house, etc)
+- Allows running 100 and 10000 times very efficiently
+- Efficient unbiased random algorithm to shuffle cards (Fisher Yates shuffle)
+- Displays statistics
+
+Card images: http://www.waste.org/~oxymoron/cards/
+Poker hand information: https://www.pokerstars.com/pages/poker/hand-rankings/

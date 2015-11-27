@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E1DCFFB-A58C-4291-AB03-194005DD7485}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PokerHands</RootNamespace>
+    <AssemblyName>PokerHands</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="Stats.cs" />
+    <Compile Include="Deck.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hands.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards\ts.gif" />
+    <None Include="Resources\cards\th.gif" />
+    <None Include="Resources\cards\td.gif" />
+    <None Include="Resources\cards\tc.gif" />
+    <None Include="Resources\cards\qs.gif" />
+    <None Include="Resources\cards\qh.gif" />
+    <None Include="Resources\cards\qd.gif" />
+    <None Include="Resources\cards\qc.gif" />
+    <None Include="Resources\cards\ks.gif" />
+    <None Include="Resources\cards\kh.gif" />
+    <None Include="Resources\cards\kd.gif" />
+    <None Include="Resources\cards\kc.gif" />
+    <None Include="Resources\cards\js.gif" />
+    <None Include="Resources\cards\jh.gif" />
+    <None Include="Resources\cards\jd.gif" />
+    <None Include="Resources\cards\jc.gif" />
+    <None Include="Resources\cards\j.gif" />
+    <None Include="Resources\cards\b.gif" />
+    <None Include="Resources\cards\as.gif" />
+    <None Include="Resources\cards\ah.gif" />
+    <None Include="Resources\cards\ad.gif" />
+    <None Include="Resources\cards\ac.gif" />
+    <None Include="Resources\cards\9s.gif" />
+    <None Include="Resources\cards\9h.gif" />
+    <None Include="Resources\cards\9d.gif" />
+    <None Include="Resources\cards\9c.gif" />
+    <None Include="Resources\cards\8s.gif" />
+    <None Include="Resources\cards\8h.gif" />
+    <None Include="Resources\cards\8d.gif" />
+    <None Include="Resources\cards\8c.gif" />
+    <None Include="Resources\cards\7s.gif" />
+    <None Include="Resources\cards\7h.gif" />
+    <None Include="Resources\cards\7d.gif" />
+    <None Include="Resources\cards\7c.gif" />
+    <None Include="Resources\cards\6s.gif" />
+    <None Include="Resources\cards\6h.gif" />
+    <None Include="Resources\cards\6d.gif" />
+    <None Include="Resources\cards\6c.gif" />
+    <None Include="Resources\cards\5s.gif" />
+    <None Include="Resources\cards\5h.gif" />
+    <None Include="Resources\cards\5d.gif" />
+    <None Include="Resources\cards\5c.gif" />
+    <None Include="Resources\cards\4s.gif" />
+    <None Include="Resources\cards\4h.gif" />
+    <None Include="Resources\cards\4d.gif" />
+    <None Include="Resources\cards\4c.gif" />
+    <None Include="Resources\cards\3s.gif" />
+    <None Include="Resources\cards\3h.gif" />
+    <None Include="Resources\cards\3d.gif" />
+    <None Include="Resources\cards\3c.gif" />
+    <None Include="Resources\cards\2s.gif" />
+    <None Include="Resources\cards\2h.gif" />
+    <None Include="Resources\cards\2d.gif" />
+    <None Include="Resources\cards\2c.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
